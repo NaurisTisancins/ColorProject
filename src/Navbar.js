@@ -52,7 +52,7 @@ export default class Navbar extends Component {
           <Select
             value={format}
             onChange={this.handleFormatChange}>
-            <MenuItem value="hex">HEX = #fff</MenuItem>
+            <MenuItem value="hex">HEX = #ffffff</MenuItem>
             <MenuItem value="rgb">RGB = rgb(255, 255,255)</MenuItem>
             <MenuItem value="rgba">RGBA = rgba(255,255,255,1.0)</MenuItem>
           </Select>
